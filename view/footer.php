@@ -26,8 +26,8 @@
     <div class="fot_duoi">
         <div class="thanhtoan">
             <div class="phone">
-                <h4><a href="tel:0903600551">SĐT: 0903600551</h4>
-                <button>Đăng ký</button>
+                <h4>SĐT: 0762643165</h4>
+                <!-- <button>Đăng ký</button> -->
             </div>
             <div class="pay">
                 <h4>PHƯƠNG THỨC THANH TOÁN</h4>
