@@ -8,12 +8,12 @@
             <h3>BALO</h3>
         </div>
         <div class="sanpham responsive">
-         
-                <?php
 
-                 $dssanpham = sanpham_showId_1();
+            <?php
 
-                 foreach($dssanpham as $row){
+            $dssanpham = sanpham_showId_1();
+
+            foreach ($dssanpham as $row) {
                 echo '
                         <div class="sanpham1">
                             <form method = "POST" action = "../controller/index.php?act=cart">
@@ -25,15 +25,15 @@
                                 <input type="hidden" name="gia" value="' . $row['gia'] . '"/>
                                 <input type="hidden" name="soluong" value="1">
                                 <div class="buy">
-                                <button><a href="../controller/index.php?act=chitiet&idsp='. $row['id'].'">Xem chi tiết</a></button>
+                                <button><a href="../controller/index.php?act=chitiet&idsp=' . $row['id'] . '">Xem chi tiết</a></button>
                                     <input type="submit" value="Cho vào giỏ" name="addcart">
                                 </div>
                             </form>
                         </div>
                                  ';
-                 }
-  
-                ?>
+            }
+
+            ?>
 
         </div>
     </div>
@@ -42,9 +42,9 @@
             <h3>VALI KÉO</h3>
         </div>
         <div class="sanpham responsive">
-                <?php
-                 $dssanpham = sanpham_showId_2();
-                 foreach($dssanpham as $row){
+            <?php
+            $dssanpham = sanpham_showId_2();
+            foreach ($dssanpham as $row) {
                 echo '
                         <div class="sanpham1">
                             <form method = "POST" action = "../controller/index.php?act=cart">
@@ -56,25 +56,25 @@
                                 <input type="hidden" name="gia" value="' . $row['gia'] . '"/>
                                 <input type="hidden" name="soluong" value="1">
                                 <div class="buy">
-                                <button><a href="../controller/index.php?act=chitiet&idsp='. $row['id'].'">Xem chi tiết</a></button>
+                                <button><a href="../controller/index.php?act=chitiet&idsp=' . $row['id'] . '">Xem chi tiết</a></button>
                                     <input type="submit" value="Cho vào giỏ" name="addcart">
                                 </div>
                             </form>
                         </div>
                                  ';
-                 }
-                ?>
+            }
+            ?>
         </div>
     </div>
     <div class="cap">
         <div class="tille">
-            <h3>TÚI XÁCH</h3>
+            <h3>Acer</h3>
         </div>
         <div class="sanpham responsive">
-                <?php
-                    $dssanpham = sanpham_showId_3();
-                    foreach($dssanpham as $row){
-                   echo '
+            <?php
+            $dssanpham = sanpham_showId_3();
+            foreach ($dssanpham as $row) {
+                echo '
                            <div class="sanpham1">
                                <form method = "POST" action = "../controller/index.php?act=cart">
                                    <img src="../view/images/' . $row['hinh'] . '" alt="">
@@ -85,21 +85,21 @@
                                    <input type="hidden" name="gia" value="' . $row['gia'] . '"/>
                                    <input type="hidden" name="soluong" value="1">
                                    <div class="buy">
-                                   <button><a href="../controller/index.php?act=chitiet&idsp='. $row['id'].'">Xem chi tiết</a></button>
+                                   <button><a href="../controller/index.php?act=chitiet&idsp=' . $row['id'] . '">Xem chi tiết</a></button>
                                        <input type="submit" value="Cho vào giỏ" name="addcart">
                                    </div>
                                </form>
                            </div>
                                     ';
-                    }
-                ?>
+            }
+            ?>
         </div>
     </div>
     <div class="bane">
         <img src="../view/anh/Banner/banner1.jpg" alt="">
         <img src="../view/anh/Banner/banner2.jpg" alt="">
     </div>
-    <div class="tintuc">
+    <!-- <div class="tintuc">
         <div class="tille">
             <h3>TIN TỨC - SỰ KIỆN</h3>
         </div>
@@ -197,7 +197,7 @@
             </a>
 
         </div>
-    </div>
+    </div> -->
 
     <div class="thuonghieu ">
         <div class="tille">
@@ -210,8 +210,7 @@
             <img src="../view/anh/thuonghieu/HP.jpg" alt="">
             <img src="../view/anh/thuonghieu/mac.jpg" alt="">
             <img src="../view/anh/thuonghieu/dell.jpg" alt="">
-            <img src="../view/anh/thuonghieu/toshiba.jpg" alt="">
-            <img src="../view/anh/thuonghieu/samsung.jpg" alt="">
+
         </div>
     </div>
 </div>

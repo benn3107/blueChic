@@ -1,4 +1,3 @@
-
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,16 +42,16 @@
                             </div>
                             <li><a href="../controller/index.php">Trang chủ</a></li>
                             <li class="repon_login">
-                            <?php
+                                <?php
                                 if (isset($_SESSION['name'])) {
-                                   //hình avata
+                                    //hình avata
                                     // echo '
                                     //     <a href="../controller/index.php?act=login" class="dangnhap">
                                     //     <img  src="../view/images/' . $_SESSION['avata'] . '">
                                     //     </a><span></span>
                                     //     <a href="../controller/index.php?act=register">ĐĂNG KÝ</a>';
 
-                                        echo '
+                                    echo '
                                         <a href="../controller/index.php?act=login" class="dangnhap">
                                         <i class="fa-solid fa-user"></i>
                                         </a><span></span>
@@ -64,13 +63,13 @@
                                     ';
                                 }
                                 ?>
-                                
+
                             </li>
-                            <?php 
-                                    $dsdanhmmuc = danhmuc_showAll();
-                                    foreach($dsdanhmmuc as $row){
-                                        echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
-                                    }
+                            <?php
+                            $dsdanhmmuc = danhmuc_showAll();
+                            foreach ($dsdanhmmuc as $row) {
+                                echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
+                            }
                             ?>
                         </ul>
                     </nav>
@@ -79,7 +78,7 @@
                 </div>
             </div>
             <div class="top">
-                <div class="header-top">
+                <!-- <div class="header-top">
                     <span class="tille-top">TIN MỚI:</span>
                     <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="4">
                         <a href="../controller/index.php?act=baiviet" title="Bán balo tại thành phố Hồ Chí Minh">Bán balo tại Thành phố Hồ Chí Minh</a>
@@ -90,7 +89,7 @@
                             bền dùng trong mùa hè 2022">Top vali kéo size đại siêu
                             bền dùng trong mùa hè 2022</a>
                     </marquee>
-                </div>
+                </div> -->
                 <div class="header-top-main">
                     <div class="hotline-header">
                         <span>NHÂN VIÊN CỬA HÀNG ĐI SHIP NHANH</span><span class="hotline-space"></span>
@@ -119,7 +118,7 @@
                         //     </a><span></span>
                         //     <a href="../controller/index.php?act=register">ĐĂNG KÝ</a>';
 
-                            echo '
+                        echo '
                             <a href="../controller/index.php?act=login" class="dangnhap">
                             <i class="fa-solid fa-user"></i>
                             </a><span></span>
@@ -142,11 +141,11 @@
                 <div class="trai">
                     <span><i class="fa-solid fa-bars"></i> DANH MỤC SẢN PHẨM <i class="fa-solid fa-caret-down"></i></span>
                     <ul>
-                        <?php 
-                            $dsdanhmmuc = danhmuc_showAll();
-                            foreach($dsdanhmmuc as $row){
-                                echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
-                            }
+                        <?php
+                        $dsdanhmmuc = danhmuc_showAll();
+                        foreach ($dsdanhmmuc as $row) {
+                            echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
+                        }
                         ?>
                     </ul>
                 </div>
@@ -154,11 +153,11 @@
                     <ul>
 
                         <li><a href="../controller/index.php">TRANG CHỦ</a></li>
-                        <?php 
-                            $dsdanhmmuc = danhmuc_showAll();
-                            foreach($dsdanhmmuc as $row){
-                                echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
-                            }
+                        <?php
+                        $dsdanhmmuc = danhmuc_showAll();
+                        foreach ($dsdanhmmuc as $row) {
+                            echo '<li><a href="../controller/index.php?act=sanpham&id=' . $row['iddanhmuc'] . '">' . $row['tendanhmuc'] . '</a></li>';
+                        }
                         ?>
                     </ul>
 

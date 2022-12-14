@@ -29,44 +29,43 @@
 </div>
 
 <?php
-    if (isset($_POST["dk"])) {
+if (isset($_POST["dk"])) {
 
 
-        if (
-            $_POST['username'] != '' && $_POST['email'] != '' &&
-            $_POST['name'] != '' && $_POST['password'] != '' && $_POST['repassword'] != ''
-        ) {
-            $user = $_POST['username'];
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $password = $_POST['password'];
-            $repassword = $_POST['repassword'];
+    if (
+        $_POST['username'] != '' && $_POST['email'] != '' &&
+        $_POST['name'] != '' && $_POST['password'] != '' && $_POST['repassword'] != ''
+    ) {
+        $user = $_POST['username'];
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $repassword = $_POST['repassword'];
 
-            //code đăng ký có ảnh avata
-            // $avata = basename($_FILES['hinh']['name']);
-            // $target = "../view/images/";
-            // $target_file = $target . $avata;
-    
-            $user_query = regiter_query($username);
-            extract($user_query);
+        //code đăng ký có ảnh avata
+        // $avata = basename($_FILES['hinh']['name']);
+        // $target = "../view/images/";
+        // $target_file = $target . $avata;
 
-            if ($user == $username) {
-                echo "<script>alert('Username đã tồn tại')</script>";
-            } else if ($password != $repassword) {
-                echo "<script>alert('Password không trùng khớp')</script>";
-            } else {
+        $user_query = regiter_query($user);
+        extract($user_query);
 
-                //Code đăng ký có ảnh avata
-                // regiter_add($user,$password,$name,$email,$avata);
-                // move_uploaded_file($_FILES['hinh']['tmp_name'],  $target_file);
-
-                regiter_add($user,$password,$name,$email);
-                echo "<script>alert('Đăng ký tài khoản thành công')</script>";
-                
-            }
+        if ($user == $user_query) {
+            echo "<script>alert('Username đã tồn tại')</script>";
+        } else if ($password != $repassword) {
+            echo "<script>alert('Password không trùng khớp')</script>";
         } else {
-            // echo "<script>alert('Vui lòng điền đầy đủ hết các thông tin')</script>";
+
+            //Code đăng ký có ảnh avata
+            // regiter_add($user,$password,$name,$email,$avata);
+            // move_uploaded_file($_FILES['hinh']['tmp_name'],  $target_file);
+
+            regiter_add($user, $password, $name, $email, $repassword);
+            echo "<script>alert('Đăng ký tài khoản thành công')</script>";
         }
     } else {
+        // echo "<script>alert('Vui lòng điền đầy đủ hết các thông tin')</script>";
     }
+} else {
+}
 ?>

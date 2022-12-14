@@ -39,9 +39,9 @@
                     include "../view/chitietsp.php";
                     break;
 
-                case 'baiviet':
-                    include "../view/baiviet.php";
-                    break;
+                // case 'baiviet':
+                //     include "../view/baiviet.php";
+                //     break;
 
                 default:
                     include "../view/home.php";
@@ -51,5 +51,4 @@
             include "../view/home.php";
         }
 
-        include "../view/footer.php"; 
-?>
+        include "../view/footer.php";
