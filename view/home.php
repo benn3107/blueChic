@@ -5,7 +5,7 @@
 <div class="product">
     <div class="balo">
         <div class="tille">
-            <h3>BALO</h3>
+            <h3>Acer</h3>
         </div>
         <div class="sanpham responsive">
 
@@ -39,7 +39,7 @@
     </div>
     <div class="vali">
         <div class="tille">
-            <h3>VALI KÉO</h3>
+            <h3>Asus</h3>
         </div>
         <div class="sanpham responsive">
             <?php
@@ -68,7 +68,7 @@
     </div>
     <div class="cap">
         <div class="tille">
-            <h3>Acer</h3>
+            <h3>HP</h3>
         </div>
         <div class="sanpham responsive">
             <?php
