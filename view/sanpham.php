@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../view/css/products.css">
 <div class="banner">
-    <img src="../view/images/balo_simplecarry.jpg" alt="">
+    <img src="../view/images/3007_32197_Laptop-HP-Envy-13-ah0026TU-4.jpg" alt="">
 </div>
 <div class="product">
     <div class="ten">

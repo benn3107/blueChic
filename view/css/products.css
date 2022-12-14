@@ -588,12 +588,12 @@ marquee a {
 
 .sanpham1 {
   padding-left: 20px;
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 50px;
 }
 
 .sanpham1 img {
-  width: 70%;
+  width: 90%;
   height: 250px;
   object-fit: cover;
   border: 1px solid #ececec;

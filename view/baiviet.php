@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../view/css/index.css">
 <link rel="stylesheet" href="../view/css/baiviet.css">
 <div class="banner">
-    <img src="../view/images/balo_simplecarry.jpg" alt="">
+    <img src="../view/images/3007_32197_Laptop-HP-Envy-13-ah0026TU-4.jpg" alt="">
 </div>
 <div class="product">
     <div class="chitiet">
@@ -87,7 +87,7 @@
             thêm tại website baloonline.com hoặc mua hàng trực tiếp tại hệ thống cửa hàng bluechic.shop hoặc liên hệ
             qua tổng đài miễn cước 0762643165 để được hỗ trợ nhanh nhất.</p>
 
-            <p>LapTop Luxyry chuyên các sản phẩm balo laptop, vali kéo, cặp đựng laptop chính hãng. </p>
+        <p>LapTop Luxyry chuyên các sản phẩm balo laptop, vali kéo, cặp đựng laptop chính hãng. </p>
     </div>
     <div class="binhluan">
         <iframe src="" frameborder="0"></iframe>

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../view/css/index.css">
 <div class="banner">
-    <img src="../view/anh/3007_32197_Laptop-HP-Envy-13-ah0026TU-4.jpg" alt="">
+    <img src="../view/images/3007_32197_Laptop-HP-Envy-13-ah0026TU-4.jpg" alt="">
 </div>
 <div class="product">
     <div class="balo">
@@ -96,8 +96,8 @@
         </div>
     </div>
     <div class="bane">
-        <img src="../view/anh/Banner/banner1.jpg" alt="">
-        <img src="../view/anh/Banner/banner2.jpg" alt="">
+        <img src="../view/images/Banner/banner1.jpg" alt="">
+        <img src="../view/images/Banner/banner2.jpg" alt="">
     </div>
     <!-- <div class="tintuc">
         <div class="tille">
@@ -204,12 +204,12 @@
             <h3>THƯƠNG HIỆU</h3>
         </div>
         <div class="logothuonghieu responsive">
-            <img src="../view/anh/thuonghieu/acer.jpg" alt="">
-            <img src="../view/anh/thuonghieu/asus.jpg" alt="">
-            <img src="../view/anh/thuonghieu/msi.jpg" alt="">
-            <img src="../view/anh/thuonghieu/HP.jpg" alt="">
-            <img src="../view/anh/thuonghieu/mac.jpg" alt="">
-            <img src="../view/anh/thuonghieu/dell.jpg" alt="">
+            <img src="../view/images/thuonghieu/acer.jpg" alt="">
+            <img src="../view/images/thuonghieu/asus.jpg" alt="">
+            <img src="../view/images/thuonghieu/msi.jpg" alt="">
+            <img src="../view/images/thuonghieu/HP.jpg" alt="">
+            <img src="../view/images/thuonghieu/mac.jpg" alt="">
+            <img src="../view/images/thuonghieu/dell.jpg" alt="">
 
         </div>
     </div>

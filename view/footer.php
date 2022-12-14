@@ -5,7 +5,7 @@
         <div class="fotter">
             <div class="shop">
                 <h3>CỬA HÀNG</h3>
-                <h5><i class="fa-solid fa-store"></i> 80 Cao Lỗ , Phường 4, Quận 8 , Thành
+                <h5><i class="fa-solid fa-store"></i> 180 Cao Lỗ , Phường 4, Quận 8 , Thành
                     Phố Hồ Chí Minh</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.95441038776!2d106.67564341474859!3d10.737997192347592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1670988201294!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -26,7 +26,7 @@
     <div class="fot_duoi">
         <div class="thanhtoan">
             <div class="phone">
-                <h4>GỌI: 0762643165</h4>
+                <h4><a href="tel:0903600551">SĐT: 0903600551</h4>
                 <button>Đăng ký</button>
             </div>
             <div class="pay">
@@ -42,7 +42,7 @@
                 <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
                 <div class="conn">
                     <a href="https://www.facebook.com/lethanhtam31072001/"><i class="fa-brands fa-facebook-square" style="color: blue;"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube-square" style="color: red;"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-youtube-square" style="color: red;"></i></a> -->
                 </div>
             </div>
         </div>
